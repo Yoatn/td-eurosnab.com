@@ -69,6 +69,15 @@ body {
     width: 130px;
 }
 
+h {
+    font-family: 'Roboto', sans-serif;
+}
+
+#goods_group, #our_partners, #map_main {
+    text-align: center;
+
+}
+
 ul, ol {
     margin-top: 0;
     margin-bottom: -10px;
