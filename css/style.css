@@ -73,7 +73,7 @@ h {
     font-family: 'Roboto', sans-serif;
 }
 
-#goods_group, #our_partners, #map_main {
+#goods_group, #our_partners, #map_main, #about_text {
     text-align: center;
 
 }
@@ -176,8 +176,14 @@ ul, ol {
     /*padding: 30px;*/
 }
 
+#about_row {
+    margin-top: 20px;
+}
+
 #contacts_row {
     margin-top: 120px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 #contacts_text {
@@ -193,6 +199,10 @@ ul, ol {
     padding-right: 60px;
     text-align: justify;
     /*text-indent: 50px;*/
+}
+
+#about_text > h2 {
+    text-align: center;
 }
 #about_text > p {
     text-indent: 50px
