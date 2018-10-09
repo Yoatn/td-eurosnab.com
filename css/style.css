@@ -57,7 +57,7 @@ body {
     text-align: justify;
 }
 
-.container .row {
+#first_row {
     margin-top: 50px;
 }
 
@@ -166,7 +166,9 @@ ul, ol {
     /*padding: 30px;*/
 }
 
-
+#copyrigt {
+    margin-top: 33px;
+}
 
 .btn.wrap-normal{
     white-space: normal;
