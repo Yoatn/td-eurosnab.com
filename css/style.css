@@ -81,6 +81,7 @@ ul, ol {
         float: none;
         text-align: center;
         justify-content: flex-end;
+        margin-top: 7px;
     }
 
     .nav.navbar-nav > li {
@@ -129,7 +130,7 @@ ul, ol {
 }
 
 #header .container {
-    margin-top: 15px;
+    margin-top: 8px;
 }
 
 #left_menu > button {
@@ -142,7 +143,7 @@ ul, ol {
 }
 
 #img_logo {
-    width: 190px;
+    width: 250px;
     margin-left: 33px;
 }
 
@@ -154,7 +155,7 @@ ul, ol {
     bottom: 0;
     width: 100%;
     height: 100px;
-    background-color: #434445;
+    background-color: #30323A;
     color: #1EB2DF;
     font-family: 'Titillium Web', sans-serif;
     font-size: 10px;
@@ -164,6 +165,28 @@ ul, ol {
     justify-content: center;
     /*margin-top: 10px;*/
     /*padding: 30px;*/
+}
+
+#contacts_row {
+    margin-top: 120px;
+}
+
+#contacts_text {
+    font-size: 20px;
+    text-align: end;
+    padding-right: 60px;
+
+}
+
+#about_text {
+    font-size: 20px;
+    text-align: end;
+    padding-right: 60px;
+    text-align: justify;
+    /*text-indent: 50px;*/
+}
+#about_text > p {
+    text-indent: 50px
 }
 
 #copyrigt {
