@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<li><button id="up">+</button></li>
+<li><button id="down">-</button></li>
+<li><button id="zero">-</button></li>
+
+<style>
+    html {
+        font-size: 14px;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+</style>
+
+<p>Some text</p>
+
+<script>
+    var html = document.documentElement;
+    up.onclick = function() {
+        // при помощи JS увеличить размер шрифта html на 2px
+        html.style.fontSize = parseInt(getComputedStyle(html, '').fontSize) + 2 + 'px';
+    };
+    var html = document.documentElement;
+    down.onclick = function() {
+        // при помощи JS уменьшить размер шрифта html на 2px
+        html.style.fontSize = parseInt(getComputedStyle(html, '').fontSize) - 2 + 'px';
+    };
+    var html = document.documentElement;
+    zero.onclick = function() {
+        // при помощи JS нормальный размер шрифта html на 2px
+        html.style.fontSize = parseInt(getComputedStyle(html, '').fontSize) + 'px';
+    };
+</script>
+</body>
+</html>

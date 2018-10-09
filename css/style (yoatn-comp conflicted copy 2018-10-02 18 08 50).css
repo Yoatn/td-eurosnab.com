@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.flex-content {
+    margin-bottom: 110px;
+    margin-top: 22px;
+}
+
+.container {
+
+    /*width: 1100px;*/
+}
+
+.item {
+    justify-content: center;
+}
+
+.container .carousel{
+    width:100%;
+    height:100%;
+    /*max-width: 380px;*/
+}
+
+.carousel-caption {
+    display: flex;
+    height: 70%;
+    width: 800px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.carousel-banner {
+    background-color: black;
+    background-attachment: scroll;
+    opacity: 0.6;
+    width: 400px;
+    height: 100px;
+    align-items: left;
+    justify-content: center;
+
+}
+.carousel-banner p{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5vh;
+    text-align: justify;
+}
+
+.container .row {
+    margin-top: 50px;
+}
+
+.carousel {
+    margin-top: 25px;
+}
+
+.carousel-control {
+    width: 130px;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: -10px;
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    .nav.navbar-nav {
+        display: flex;
+        float: none;
+        text-align: center;
+        justify-content: flex-end;
+    }
+
+    .nav.navbar-nav > li {
+        float: none;
+        display: inline-block;
+        text-align: center;
+    }
+
+    ul.nav li.dropdown:hover > ul.dropdown-menu {
+        display: block;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .content {
+        width: 1100px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+}
+
+#left_menu {
+    margin-top: 25px;
+    width: 100%;
+
+}
+
+#header {
+    background-color: #30323A;
+    color: #ffffff;
+    height: 78px;
+}
+
+#header .container {
+    margin-top: 15px;
+}
+
+#left_menu > button {
+
+
+    background-color: #30323a;
+    color: #1EB2DF;
+
+}
+
+#img_logo {
+    width: 190px;
+}
+
+#map {
+    margin-bottom: 30px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #434445;
+    color: #a4a4a4;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*margin-top: 10px;*/
+    /*padding: 30px;*/
+}
+
+
+
