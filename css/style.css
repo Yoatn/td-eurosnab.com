@@ -125,6 +125,18 @@ ul, ol {
     }
 }
 
+.navbar-brand {
+    height: 60px;
+}
+
+@media (max-width: 993px) {
+    .navbar-brand {
+        float: none;
+        display: block;
+        overflow: hidden;
+    }
+}
+
 #left_menu {
     margin-top: 25px;
     width: 100%;
@@ -216,4 +228,25 @@ ul, ol {
 
 .btn.wrap-normal{
     white-space: normal;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: right;
+}
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: right;
+    }
 }
