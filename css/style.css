@@ -15,7 +15,7 @@ body {
 
 .flex-content {
     margin-bottom: 110px;
-    margin-top: 22px;
+    margin-top: 40px;
 }
 
 .container {
@@ -262,5 +262,28 @@ ul, ol {
 
     .navbar .navbar-collapse {
         text-align: right;
+    }
+}
+
+#page_content, #about_service {
+    margin-top: 86px;
+}
+
+#page_content > h1 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#about_service > .col-lg-12 {
+    font-size: 20px;
+    text-align: left;
+    text-indent: 40px;
+}
+
+
+@media (max-width: 900px) {
+    .navbar-nav > li > a {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }

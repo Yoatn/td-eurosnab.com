@@ -1952,13 +1952,13 @@ pre code {
     width: 66.66666667%;
   }
   .col-md-7 {
-    width: 58.33333333%;
+    width: 50%;
   }
   .col-md-6 {
     width: 50%;
   }
   .col-md-5 {
-    width: 41.66666667%;
+    width: 50%;
   }
   .col-md-4 {
     width: 33.33333333%;
@@ -3985,9 +3985,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
-  margin-left: 7px;
-  margin-right: 7px;
+  padding: 10px 7px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -4235,7 +4235,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-right: -15px;
   margin-left: -15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 802px) {
   .container > .navbar-header,
   .container-fluid > .navbar-header,
   .container > .navbar-collapse,
