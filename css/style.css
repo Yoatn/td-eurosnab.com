@@ -123,7 +123,17 @@ ul, ol {
     p {
         font-size: 10px;
     }
+    button {
+        font-size: 10px;
+    }
+
+    .btn wrap-normal {
+        font-size: 11px;
+    }
 }
+
+
+
 
 .navbar-brand {
     height: 60px;
@@ -141,6 +151,10 @@ ul, ol {
     margin-top: 25px;
     width: 100%;
 
+}
+
+#left_menu > button > p{
+    margin-bottom: 0px;
 }
 
 #header {
@@ -161,7 +175,7 @@ ul, ol {
     white-space: normal;
     width: 100%;
     border-color: #36672c;
-    height: 44px;
+    min-height: 44px;
 }
 
 #img_logo {
