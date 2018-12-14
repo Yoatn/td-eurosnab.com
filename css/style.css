@@ -224,7 +224,7 @@ ul, ol {
 #about_text {
     font-size: 20px;
     text-align: end;
-    padding-right: 60px;
+    /*padding-right: 60px;*/
     text-align: justify;
     /*text-indent: 50px;*/
 }
