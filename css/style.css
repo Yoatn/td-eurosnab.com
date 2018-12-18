@@ -335,6 +335,7 @@ ul, ol {
 
 /*viemport gamburger end*/
 
+/*catalog start*/
 @media (max-width: 1199px) {
     #catalog_category > .row > .col-lg-3:nth-child(-n+2) {
         margin-bottom: 20px;
@@ -356,13 +357,27 @@ ul, ol {
     width: 100%;
 }
 
-.card {
-    border: #cbcbcb solid 0.1px;
+.card-img-top {
+    border-bottom: #cbcbcb solid 1px;
+}
 
+.card {
+    border: #cbcbcb solid 1px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .card-footer > a.btn {
     margin-bottom: 12px;
 }
 
-/*catalog start*/
+.card-text {
+    padding: 0px 10px 0px 10px;
+}
+
+.h4_catalog {
+    margin: 20px 0px 20px 0px;
+    font-weight: bold;
+}
+
+
+/*catalog end*/
