@@ -84,7 +84,8 @@ ul, ol {
     font-size: 16px;
 }
 
-@media (min-width: 768px) {
+/*viemport gamburger*/
+@media (min-width: 980px) {
     .nav.navbar-nav {
         display: flex;
         float: none;
@@ -252,6 +253,7 @@ ul, ol {
 
 .navbar .navbar-collapse {
     text-align: right;
+    background-color: #30323abd;
 }
 @media (min-width: 768px) {
     .navbar .navbar-nav {
@@ -287,3 +289,80 @@ ul, ol {
         margin-right: 0px;
     }
 }
+
+/*viemport gamburger start*/
+
+@media (max-width: 838px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+}
+
+/*viemport gamburger end*/
+
+@media (max-width: 1199px) {
+    #catalog_category > .row > .col-lg-3:nth-child(-n+2) {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .col-lg-3 {
+        margin: 0px 100px 0px 100px;
+    }
+
+    #catalog_category > .row > .col-lg-3:nth-child(3) {
+        margin-bottom: 20px;
+    }
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.card {
+    border: #cbcbcb solid 0.1px;
+
+}
+
+.card-footer > a.btn {
+    margin-bottom: 12px;
+}
+
+/*catalog start*/
